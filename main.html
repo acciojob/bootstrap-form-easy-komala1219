@@ -28,20 +28,20 @@
       </div>
   </div>
   <div class="col-md-4">
-    <label for="validationServer02" class="form-label">Last name</label>
+    <label for="validationServer02" class="form-label">Last Name</label>
     <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
+   <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Last Name Required!
+      </div>
   </div>
   <div class="col-md-4">
-    <label for="validationServerUsername" class="form-label">Username</label>
+    <label for="validationServerUsername" class="form-label">Email Address</label>
     <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend3">@</span>
-      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-      <div id="validationServerUsernameFeedback" class="invalid-feedback">
-        Please choose a username.
-      </div>
+      
+      <input type="text" class="form-control is-invalid" placeholder="xyz@abc.com" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+     <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Email Required!
+      </div> 
     </div>
   </div>
   <div class="col-md-6">
